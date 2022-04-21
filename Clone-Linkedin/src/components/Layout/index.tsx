@@ -25,7 +25,7 @@ const Layout: React.FC = () => {
 
       <span>{!isLoading && <AdBanner />}</span>
 
-      <main>
+      <main> //main será as três colunas juntas
         <LeftColumn isLoading={isLoading} />
         <MiddleColumn isLoading={isLoading} />
         <RightColumn isLoading={isLoading} />
